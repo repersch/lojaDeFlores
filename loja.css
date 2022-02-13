@@ -1,0 +1,92 @@
+/* BACKGROUND */
+
+.back {
+    background-image: url("../LojaDeFlores/imagens/home3.jpg");
+    background-size: cover;
+}
+
+/* NAV BAR */
+
+.cor-navbar {
+    background-color: rgb(255, 255, 255)!important;
+}
+
+.nav-link {
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    transform: scale(1.2);
+    color: black;
+}
+
+/* IMPUT PESQUISAR */
+  
+.input-pesquisar {
+    width: 250px;
+}
+
+.btn-pesquisar {
+    color: rgb(197, 189, 189);
+    border-color: rgb(102, 100, 100);
+    height: 38px;
+}
+
+.btn-pesquisar:hover {
+    color: rgb(102, 100, 100);
+}
+
+/* MODAL CONTATO */
+
+.modal-conteudo {
+    padding: 1rem;
+}
+
+.texto-modal-titulo {
+    font-family: 'Playfair Display';
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.texto-modal {
+    font-family: 'Playfair Display', serif;
+    font-size: 1rem;
+}
+
+.texto-modal-placeholder {
+    font-family: 'Playfair Display', serif;
+    font-size: 1rem;
+}
+
+/* CARDS LOJA */
+
+.card-imagem {
+    width: 18rem;
+}
+
+.card-imagem-top {
+    height:25rem;
+    object-fit:cover;
+    object-position: 0 70%;
+}
+
+#opcoes {
+    margin-top: 150px;
+}
+
+.card-footer {
+    justify-content:space-between;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.50);
+}
+
+.btn-comprar {
+    background-color: rgb(102, 100, 100);
+    color: white;
+}
+
